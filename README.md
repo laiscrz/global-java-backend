@@ -15,6 +15,30 @@ O desenvolvimento do backend em Java empregou as seguintes tecnologias:
 * **Maven:** Ferramenta de gerenciamento de dependências e construção de projetos Java.
 * **Apache Tomcat:** Servidor web utilizado para hospedar a aplicação Java.
 
+## 📂 Estrutura do Projeto
+
+O projeto do backend em Java está organizado em pacotes que representam diferentes aspectos da aplicação:
+
+* `factory`: Contém as classes responsáveis por criar e gerenciar conexões com o banco de dados.
+* `exception`: Contém as classes de exceção personalizadas lançadas pela aplicação.
+* `model`: Contém as classes de modelos de dados que representam as entidades do sistema.
+* `dao`: Contém as classes responsáveis por realizar operações de acesso a dados no banco de dados.
+* `bo`: Contém as classes de objetos de negócio (Business Objects) que representam entidades do sistema.
+* `service`: Contém as classes responsáveis por implementar a lógica de negócios da aplicação.
+* `resource`: Contém as classes de controladores REST que definem os endpoints da API.
+
+## 📦 Endpoints da API
+
+A API RESTful do backend em Java oferece os seguintes endpoints:
+
+* `/cliente`: Endpoint para operações CRUD relacionadas aos clientes.
+* `/dispositivo`: Endpoint para operações CRUD relacionadas aos dispositivos.
+* `/cuidador`: Endpoint para operações CRUD relacionadas aos cuidadores.
+* `/diagnostico`: Endpoint para operações CRUD relacionadas aos diagnósticos.
+* `/emergencia` : Endpoint para operações CRUD relacionadas a emergência.
+* `/manutencao`: Endpoint para operações CRUD relacionadas aos manutenção.
+  
+Cada endpoint suporta os métodos HTTP GET, POST, PUT e DELETE para realizar as operações CRUD correspondentes.
 
 ## 📌 Link do Repositório do Front-End
 O código-fonte do frontend está disponível no seguinte repositório:
