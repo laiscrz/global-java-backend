@@ -15,6 +15,20 @@ O desenvolvimento do backend em Java empregou as seguintes tecnologias:
 * **Maven:** Ferramenta de gerenciamento de dependências e construção de projetos Java.
 * **Apache Tomcat:** Servidor web utilizado para hospedar a aplicação Java.
 
+## 📌 Link do Repositório do Front-End
+O código-fonte do frontend está disponível no seguinte repositório:
+
+```bash
+https://github.com/laiscrz/global-next-js
+```
+
+## 🔗 Link do Video
+Segue o link do vídeo enviado na disciplina de Domain Driven Design, apresentando o software em funcionamento:
+
+```bash
+https://www.youtube.com/watch?v=GRBNe07OxSo
+```
+
 ## 📂 Estrutura do Projeto
 
 O projeto do backend em Java está organizado em pacotes que representam diferentes aspectos da aplicação:
@@ -39,20 +53,6 @@ A API RESTful do backend em Java oferece os seguintes endpoints:
 * `/manutencao`: Endpoint para operações CRUD relacionadas aos manutenção.
   
 Cada endpoint suporta os métodos HTTP GET, POST, PUT e DELETE para realizar as operações CRUD correspondentes.
-
-## 📌 Link do Repositório do Front-End
-O código-fonte do frontend está disponível no seguinte repositório:
-
-```bash
-https://github.com/laiscrz/global-next-js
-```
-
-## 🔗 Link do Video
-Segue o link do vídeo enviado na disciplina de Domain Driven Design, apresentando o software em funcionamento:
-
-```bash
-https://www.youtube.com/watch?v=GRBNe07OxSo
-```
 
 ## 📝 Instruções de Uso
 Para utilizar o backend em Java, siga as instruções abaixo:
